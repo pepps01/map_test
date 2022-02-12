@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  margin: 2em;
+  background-color: blue;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main div {
+  padding: 1em;
+  font-size: 25px;
+  background: red;
+  flex-grow: 2;
+  align-self: center;
+  border: 1px solid black;
+  text-align: center;
+}
+   
