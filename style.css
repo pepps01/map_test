@@ -17,6 +17,7 @@ body {
   background: red;
   flex-grow: 2;
   align-self: center;
+
   border: 1px solid black;
   text-align: center;
   animation: calc(100);
